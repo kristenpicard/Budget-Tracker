@@ -22,7 +22,7 @@ This full-stack web application uses IndexedDB, MongoDB, Mongoose, Express, and 
 
 ## Application Depoloyment
 
-Click this link to take you to the deployed app: KRISTEN ADD HEROKU LINK HERE
+Click this link to take you to the deployed app: https://protected-sierra-74744.herokuapp.com/
 
 ## Table of Contents
 
