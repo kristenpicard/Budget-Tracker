@@ -5,9 +5,6 @@ const FILES_TO_CACHE = [
   "/index.js",
   "/icons/icon-192x192.png",
   "/icons/icon-512x512.png",
-  // "/dist/app.bundle.js",
-  // "/dist/favorites.bundle.js",
-  // "/dist/topic.bundle.js",
 ];
 
 // ********************Got from mini project
