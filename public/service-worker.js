@@ -3,11 +3,12 @@ const FILES_TO_CACHE = [
   "/index.html",
   "/styles.css",
   "/index.js",
+  "/indexedDb.js",
   "/icons/icon-192x192.png",
   "/icons/icon-512x512.png",
 ];
 
-// ********************Got from mini project
+// Got from mini project
 
 const PRECACHE = "precache-v1";
 const RUNTIME = "runtime";
@@ -59,13 +60,6 @@ self.addEventListener("fetch", (event) => {
             });
           });
         });
-      })
-    );
-
-    // If the request is not for the API, serve static assets offline
-    event.respondWith(
-      caches.match(event.request).then((response) => {
-        return response || fetch(event.request);
       })
     );
   }
